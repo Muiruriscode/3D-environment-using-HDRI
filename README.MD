@@ -2,7 +2,7 @@
 
 The project uses a HDR 360 degree image for the background of the scene.
 
-!["Immersive view"]("./assets/images/view.png")
+!["Immersive view"]("/assets/images/view.png")
 
 ```js
 import { RGBELoader } from "three/examples/jsm/loaders/RGBELoader";
