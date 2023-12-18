@@ -25,7 +25,7 @@ renderer.toneMapping = THREE.ACESFilmicToneMapping;
 renderer.toneMappingExposure = 0.8;
 
 const loader = new RGBELoader();
-loader.load("./assets/HDR/background4.hdr", function (texture) {
+loader.load("/background4.hdr", function (texture) {
   texture.mapping = THREE.EquirectangularReflectionMapping;
   scene.background = texture;
   scene.environment = texture;
